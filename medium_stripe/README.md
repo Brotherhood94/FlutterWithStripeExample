@@ -1,16 +1,7 @@
-# medium_stripe
+# Flutter + Stripe Connect + 3DSecure (SCA)
 
-A new Flutter project.
+This sample project shows how to integrate Stripe Connect with a Flutter based app.
 
-## Getting Started
+## Medium Article
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+https://medium.com/@Brotherhood94/flutter-stripe-connect-3dsecure-sca-ab8fd364ca1e?sk=89869a5707ad1544a8c21c0089aa1868
