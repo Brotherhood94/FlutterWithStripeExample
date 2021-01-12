@@ -12,6 +12,17 @@ This needs to happen on the server side as it involves sending your secret key w
 You can implement this in any language you choose, below are two examples:
 
 ### Using Firebase and Stripe's NPM module:
+
+Deploy the below code with:
+```sh
+$ firebase deploy --only functions
+```
+
+To fetch the logs, use:
+```sh
+$ firebase functions:log --only  createPaymentIntent
+```
+
 ```js
 const functions = require('firebase-functions');
 const admin = require('firebase-admin');
