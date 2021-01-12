@@ -48,7 +48,7 @@ exports.createPaymentIntent = functions.https.onRequest((req, res) => {
     {    
       stripeAccount: 'YOUR_ACCOUNT_ID_HERE',
      
-    },    function(err, paymentIntent) {
+    }, function(err, paymentIntent) {
                 // asynchronously called
                 const paymentIntentReference = paymentIntent;
                 if (err !== null){
@@ -61,7 +61,7 @@ exports.createPaymentIntent = functions.https.onRequest((req, res) => {
                         clientSecret: paymentIntent.client_secret,
                     });
                 }
-    }
+       }
   );
 
 });
