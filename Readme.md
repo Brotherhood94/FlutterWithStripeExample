@@ -69,9 +69,10 @@ exports.createPaymentIntent = functions.https.onRequest((req, res) => {
 
 ### Using Python (tested with AWS' Lambda service)
 
+Install the module:
+
 ```sh
-# install the module:
-pip3 install stripe
+# pip3 install stripe
 ```
 
 ```python
